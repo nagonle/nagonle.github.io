@@ -9,7 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  base: '/nagonle.github.io/',
+  // base: 'nagonle.github.io',
   integrations: [
     tailwind({
       applyBaseStyles: false,
